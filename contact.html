@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head element-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatim Journey</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
+    <link rel="stylesheet" href="uts.css">
+    <script src="uts.js"></script>
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css?family=Mochiy Pop One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/44801b8c20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--navigasi menu-->
+<div class="navbar">
+    <div class="header-navbar">
+        <a href="uts.html"><img src="Images/navbar.png" width="30%" style="margin-left: 20px;"></a>
+    </div>
+    <div class="dmenu" id="home">
+        <a href="uts.html">Home</a>
+    </div>
+    <div class="dmenu" id="about">
+        <a href="about.html">About</a>
+        <div class="downMen" id="aboutLinks">
+            <a href="about.html#profil">Profil</a>
+            <a href="about.html#history">History</a>
+            <a href="about.html#vision-mission">Vision & Mission</a>
+            <a href="about.html#goals">Goals</a>
+        </div>
+    </div>
+    <div class="dmenu" id="destinations">
+        <a href="destinations.html">Destinations</a>
+        <div class="downMen" id="destinationsLinks">
+            <a href="destinations.html#mountains">Mountains</a>
+            <a href="destinations.html#beaches">Beaches</a>
+            <a href="destinations.html#waterfalls">Waterfalls</a>
+            <a href="destinations.html#heritage">Cultural Heritage</a>
+            <a href="destinations.html#conservations">Conservations</a>
+        </div>
+    </div>
+    <div class="dmenu" id="gallery">
+        <a href="gallery.html">Gallery</a>
+        <div class="downMen" id="galleryLinks">
+            <a href="gallery.html#mountains">Mountains</a>
+            <a href="gallery.html#beaches">Beaches</a>
+            <a href="gallery.html#cities">Cities</a>
+            <a href="gallery.html#events">Events</a>
+            <a href="gallery.html#culinary">Culinary</a>
+        </div>
+    </div>
+    <div class="dmenu" id="registration">
+        <a href="registration.html">Registration</a>
+    </div>
+    <div class="dmenu" id="contact">
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<!--header contact us-->
+<div class="image-contact">
+    <img src="Images/bannerkontak.jpg" alt="Banner Header">
+</div>
+
+<div class="image-padding">
+    <div class="info-item">
+      <a href="https://maps.app.goo.gl/sHsi3kpzPGYqkMkR6" target="_blank">
+        <i class="fa-solid fa-location-dot fa-1x"></i>
+      </a>
+      <p>Jawa Timur, Indonesia</p>
+    </div>
+    <div class="info-item">
+      <a href="tel:0217338333" target="_blank">
+        <i class="fa-solid fa-phone fa-1x"></i>
+      </a>
+      <p>0217338333</p>
+    </div>
+    <div class="info-item">
+        <a href="mailto:jatimjourney@gmail.com" target="_blank">
+            <i class="fa-solid fa-envelope fa-1x"></i>
+        </a>
+        <p>jatimjourney@gmail.com</p>
+    </div>
+    <div class="info-item">
+        <a href="https://www.instagram.com/jatimjourney" target="_blank">
+            <i class="fa-brands fa-square-instagram fa-1x"></i>
+        </a>
+        <p>@jatimjourney</p>
+    </div>
+    <div class="info-item">
+        <a href="https://youtube.com/@JatimJourney/" target="_blank">
+            <i class="fa-brands fa-youtube fa-1x"></i>
+        </a>
+        <p>Jatim Journey</p>
+    </div>
+</div>
+
+<!--form contact us-->
+<div class="form-wrap">
+    <div class="contact-form-container">
+        <h2>Kritik & Saran</h2>
+        <form action="submit_form.php" method="post">
+          <div class="form-group">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" placeholder="Nama Lengkap" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Alamat Email:</label>
+            <input type="email" id="email" name="email" placeholder="Alamat Email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" placeholder="Pesan" rows="5" required></textarea>
+          </div>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+</div>
+
+<!--footer dan icons-->
+<footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2024 Jawa Timur Journey. All Rights Reserved.</p>
+      <p>Design by Eling Anggie Trikunari</p>
+      <p>Visit on: <a href="https://yourdesignwebsite.com" target="_blank"> Jatim Journey</a></p>
+      <div class="icons">
+        <a href="https://www.instagram.com/ellngatrknr" target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a>
+        <a href="mailto:anggietrikunari@gmail.com" target="_blank"><i class="fa-regular fa-envelope fa-3x"></i></a>
+        <a href="https://youtube.com/@ellngatrknr/" target="_blank"><i class="fa-brands fa-square-youtube fa-3x"></i></a>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
